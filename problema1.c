@@ -19,7 +19,7 @@ scanf("%f%f", &largura, &comprimento);
 printf("Entre com a potencia das lampadas (em watts): ");
 scanf("%d", &potencia);
 
-numeroLampadas = ceil(((largura*comprimento)*16)/potencia);
+numeroLampadas = (int)ceil(((largura*comprimento)*16)/potencia);
 
 printf("Numero de lampadas: %d", numeroLampadas);
 
