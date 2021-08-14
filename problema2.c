@@ -20,7 +20,7 @@ int main(void){
 
 
     perimetroQuad = ((raio*2)/sqrt(2))*4;
-    areaQuad = ((raio*2)/sqrt(2))*((raio*2)/sqrt(2));
+    areaQuad = pow((raio*2)/sqrt(2), 2);
 
     printf("\nLado2 teste: %f", lado);
     printf("\nPerimetro do maior quadrado: %.2f", perimetroQuad);
