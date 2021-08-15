@@ -11,7 +11,7 @@
 
 int main(void){
 
-    float raio, perimetroQuad, areaQuad, lado;
+    float raio, lado, perimetroQuad, areaQuad;
 
     printf("Entre com um valor para o raio: ");
     scanf("%f", &raio);
@@ -22,7 +22,6 @@ int main(void){
     perimetroQuad = lado*4;
     areaQuad = pow(lado, 2);
 
-    printf("\nLado2 teste: %f", lado);
     printf("\nPerimetro do maior quadrado: %.2f", perimetroQuad);
     printf("\nArea do maior quadrado; %.2f", areaQuad);
 

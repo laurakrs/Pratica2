@@ -10,7 +10,7 @@
 
 int main(void){
 
-float largura, comprimento,num;
+float largura, comprimento;
 int potencia, numeroLampadas;
 
 printf("Entre com a largura e o comprimento do quarto: ");
